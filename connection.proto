@@ -1,0 +1,23 @@
+syntax = "proto3";
+package igs.dist.proto;
+
+message MessageAccepted {
+
+}
+
+message CreateConnectionRequest {
+
+}
+
+message ChooseDatabase {
+  string token = 1;
+}
+
+message CreateConnectionResponse {
+  string token = 1;
+  string host = 2;
+}
+
+message CreateConnection {
+  string token = 1;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+package igs.dist.proto;
+
+
+enum QueryType {
+  READ = 0;
+  WRITE = 1;
+}
+
+message QueryRequest {
+  QueryType queryType = 1;
+  string query = 2;
+}
+
+message QueryResponse {
+  string result = 1;
+}
