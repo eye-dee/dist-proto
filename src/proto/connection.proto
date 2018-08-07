@@ -1,5 +1,5 @@
 syntax = "proto3";
-package igs.dist.proto;
+package igc.dist.proto;
 
 message MessageAccepted {
 
