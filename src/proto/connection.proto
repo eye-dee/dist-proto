@@ -6,7 +6,6 @@ message MessageAccepted {
 }
 
 message CreateConnectionRequest {
-
 }
 
 message ChooseDatabase {
