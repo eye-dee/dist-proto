@@ -2,6 +2,8 @@ syntax = "proto3";
 package igc.dist.proto;
 
 message RegistrationRequest {
+  string host = 1;
+  int32 port = 2;
 }
 
 message RegistrationResponse {
