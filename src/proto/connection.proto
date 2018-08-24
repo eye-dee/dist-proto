@@ -15,6 +15,7 @@ message ChooseDatabase {
 message CreateConnectionResponse {
   string token = 1;
   string host = 2;
+  int32 port = 3;
 }
 
 message CreateConnection {
