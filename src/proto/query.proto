@@ -12,6 +12,12 @@ message QueryRequest {
   string query = 2;
 }
 
+message InternalQueryRequest {
+  QueryType queryType = 1;
+  string query = 2;
+  string token = 3;
+}
+
 message QueryResponse {
   string result = 1;
 }
